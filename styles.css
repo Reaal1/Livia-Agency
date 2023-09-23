@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.generals{
+    display: flex;
+    padding: 1px 70px;
+    background-color: #515DEF;
+    
+}
+.general-content{
+    height: 100%;
+    width: 70%;
+    background-color: #515DEF;
+}
+.general-content1{
+    width: 50%;
+}
+.background-photo{
+    width: 115%;
+    height: 100%;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.navcenter{
+    display: flex;
+    gap: 35px;
+    margin-right: 110px;
+}
+.navcenter-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FBFBFB;
+}
+.navbar-button{
+    position: absolute;
+    margin-left: 1000px;
+    display: flex;
+    width: 130px;
+    height: 50px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid var(--Blue, #515DEF);
+    background: var(--Blue, #515DEF);
+}
+.navbar-button:hover{
+    color: #FBFBFB;
+    background-color: black;
+}
+.services{
+    margin-top: 50px;
+}
+.greeting{
+    color:  #FBFBFB;
+    font-size: 24px;
+    font-weight: 400; 
+    margin-bottom: 20px;
+}
+.service1{
+    color:  #FBFBFB;
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.service2{
+    color:  #FBFBFB;
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.service-button{
+    display: flex;
+    width: 219px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color:  #333;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.service-clicks{
+    margin-top: 20px;
+    
+}
+.service-button{
+    position: absolute;
+}
+.service-arrow{
+    position: relative;
+    margin:4px 165px;
+}
+.Service-footer{
+    background-color: #FBFBFB;
+    display: flex;
+    margin-top: 20px;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    width: 885px;
+    height: 200px;
+    margin-left: -76px;
+    padding: 2px 30px;
+}
+.footer-links{
+    margin-right: 7px;
+}
+.footer-links1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+}
+.footerhead{
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer-paragraph{
+    color: #909090;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footerlink{
+    margin-bottom: 15px;
+}
